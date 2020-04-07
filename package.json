@@ -2,7 +2,7 @@
   "name": "@saturnnetwork/erc20wrapper",
   "version": "1.0.0",
   "description": "ERC20 wrapper for ERC223 tokens",
-  "homepage": "https://github.com/saturn-network/erc20wrapper",
+  "homepage": "https://erc20.saturn.network/",
   "keywords": [
     "blockchain",
     "eth",
@@ -15,6 +15,8 @@
     "erc223",
     "saturn",
     "dex",
+    "dapp",
+    "react",
     "decentralized"
   ],
   "author": "Saturn Network",
@@ -23,13 +25,16 @@
     "node": ">=10.0.0"
   },
   "scripts": {
-    "trace": "MODE=trace truffle test",
     "clean": "shx rm -rf coverage && shx rm -rf .0x-artifacts/* && shx rm -rf build/* && shx rm -rf artifacts/*",
     "test": "truffle test",
     "compile": "truffle compile",
     "migrate": "truffle migrate",
     "sol-compiler": "sol-compiler",
-    "coverage": "truffle run coverage"
+    "coverage": "truffle run coverage",
+    "frontend:start": "react-scripts start",
+    "frontend:build": "react-scripts build",
+    "predeploy": "yarn frontend:build",
+    "deploy": "npx gh-pages -d build"
   },
   "dependencies": {
     "axios": "^0.19.0",
@@ -41,12 +46,44 @@
     "lodash": "^4.17.15",
     "ora": "^3.4.0",
     "shx": "^0.3.2",
-    "solidity-coverage": "^0.7.1"
+    "solidity-coverage": "^0.7.1",
+    "@fortawesome/fontawesome-svg-core": "^1.2.28",
+    "@fortawesome/free-solid-svg-icons": "^5.13.0",
+    "@fortawesome/react-fontawesome": "^0.1.9",
+    "@mycrypto/eth-scan": "^2.1.0",
+    "babel-eslint": "10.1.0",
+    "big.js": "^5.2.2",
+    "bootstrap": "^4.4.1",
+    "jquery": "^3.4.1",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-number-format": "^4.4.1",
+    "react-redux": "^7.2.0",
+    "react-scripts": "3.4.1",
+    "reactstrap": "^8.4.1",
+    "redux": "^4.0.5",
+    "redux-thunk": "^2.3.0",
+    "web3": "^0.20.7"
   },
   "devDependencies": {
     "@0x/sol-compiler": "^3.1.14",
     "istanbul": "^0.4.5",
     "truffle": "^5.0.4",
     "web3-provider-engine": "^14.1.0"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
