@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.js": "/erc20wrapper/static/js/main.01d80caa.chunk.js",
+    "main.js.map": "/erc20wrapper/static/js/main.01d80caa.chunk.js.map",
+    "runtime-main.js": "/erc20wrapper/static/js/runtime-main.62be18bb.js",
+    "runtime-main.js.map": "/erc20wrapper/static/js/runtime-main.62be18bb.js.map",
+    "static/css/2.de424728.chunk.css": "/erc20wrapper/static/css/2.de424728.chunk.css",
+    "static/js/2.df710aea.chunk.js": "/erc20wrapper/static/js/2.df710aea.chunk.js",
+    "static/js/2.df710aea.chunk.js.map": "/erc20wrapper/static/js/2.df710aea.chunk.js.map",
+    "index.html": "/erc20wrapper/index.html",
+    "precache-manifest.037048e8bdef9f785d9e05510ba517ce.js": "/erc20wrapper/precache-manifest.037048e8bdef9f785d9e05510ba517ce.js",
+    "service-worker.js": "/erc20wrapper/service-worker.js",
+    "static/css/2.de424728.chunk.css.map": "/erc20wrapper/static/css/2.de424728.chunk.css.map",
+    "static/js/2.df710aea.chunk.js.LICENSE.txt": "/erc20wrapper/static/js/2.df710aea.chunk.js.LICENSE.txt",
+    "static/media/install-wallet.png": "/erc20wrapper/static/media/install-wallet.1769ac43.png",
+    "static/media/logo-light.png": "/erc20wrapper/static/media/logo-light.2fe9aec2.png",
+    "static/media/saturn-20.png": "/erc20wrapper/static/media/saturn-20.f987d386.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.62be18bb.js",
+    "static/css/2.de424728.chunk.css",
+    "static/js/2.df710aea.chunk.js",
+    "static/js/main.01d80caa.chunk.js"
+  ]
+}
