@@ -43,7 +43,7 @@
     "ethers": "^4.0.37",
     "fast-glob": "^3.1.0",
     "inquirer": "^7.0.0",
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.19",
     "ora": "^3.4.0",
     "shx": "^0.3.2",
     "solidity-coverage": "^0.7.1",
